@@ -1,0 +1,138 @@
+@media (max-width: 1000px) {
+  .container {    display: flex;
+    flex-direction: column; background-color: hsl(227, 36%, 90%);
+    margin-top: 3%;    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px 20px 20px rgba(47, 18, 18, 0.101);
+    width: 375px;    height: 680px;  }
+
+  .displayStep {    display: flex;    justify-content: center;
+    width: 100%;    height: 172px;
+    background-color: rgba(30, 16, 186, 0);
+    background-image: url(./image/bg-sidebar-mobile.svg);
+    border-radius: 10px;
+  }
+
+  .stepContainer {    background-color: rgb(255, 255, 255);
+    width: 250px;    height: 500px;
+    position: absolute;    margin-top: 90px;
+    margin-left: 45px;    margin-right: auto;
+    margin-bottom: auto;    border-radius: 10px;    padding: 20px;
+  }
+  .buttonContainerStepOne {    position: relative;
+    background-color: rgba(0, 255, 51, 0);
+    padding-left: 130px;    padding-top: 39px;
+  }
+  .buttonContainerStepTwo {    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 51, 0);    padding-top: 25px;
+  }
+  .buttonContainerStepThree {    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 51, 0);    padding-top: 58px;
+  }
+  .buttonContainerStepFour {
+    display: flex;    justify-content: space-between;
+    background-color: rgba(0, 255, 51, 0);    padding-bottom: 39px;
+  }
+
+  .steps {    display: none;  }
+  .circle {    position: relative;    width: 50%;    color: white;
+    font-weight: 500;    height: 2%;    display: flex;
+    flex-direction: row;
+  }
+  .circle p {    margin-top: 5px;  }
+  .circle1 {    width: 30px;    height: 30px;
+    border-radius: 20px;    background-color: rgb(255, 255, 255);
+    border: solid 1px white;    display: flex;
+    justify-content: center;    color: black;
+  }
+  .circle2 {    width: 30px;    height: 30px;
+    border-radius: 20px;    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px white;    display: flex;
+    justify-content: center;
+  }
+  .circle3 {    width: 30px; height: 30px;    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px white;    display: flex;
+    justify-content: center;
+  }
+  .circle4 {    width: 30px;    height: 30px;  border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);  border: solid 1px white;
+    display: flex;    justify-content: center;
+  }
+  #stepInfo {    display: flex;    flex-direction: column;  }
+
+  .stepInfo h1 {    margin-top: 0;  }
+
+  #stepInfo input {width: 100%; height: 40px;
+    border-radius: 5px;
+        border: solid 1px rgba(103, 92, 92, 0.628);
+  }
+  #stepPlan {    display: none;    flex-direction: column;  }
+  .planMonth {    display: flex;    justify-content: space-between;
+    flex-direction: column;  }
+  .stepPlan h1 {    margin-top: 0;  }
+  .stepAddOn h1 {    margin-top: 0;    margin-left: 30px;  }
+  .stepSummary h1 {    margin-top: 0;    margin-left: 37px;  }
+  .descrition {    margin-top: 0;  }
+  .planButton {    display: flex;    flex-direction: row;
+    border-radius: 10px;    width: 100%;
+    height: 66px;    border: solid 1px hsl(229, 24%, 87%);
+    background-color: white;    margin-top: 10px;
+    cursor: pointer;  }
+  .planButton p {    font-size: 16px;    margin-top: 4px;
+    margin-left: 8px;    margin-bottom: 0px;  }
+
+  .planButton span {    cursor: pointer;    margin-left: 57px;
+    font-size: 12px;    margin-top: 23px;    position: absolute;  }
+  .underMedia {    flex-direction: column;  }
+  .free {   cursor: pointer;    margin-left: 57px;
+    font-size: 12px;    margin-top: 41px;    position: absolute;  }
+  .addOnButton {    display: flex;  justify-content: space-between;
+    align-items: center;    margin-top: 10px;
+    border: solid 1px hsl(229, 24%, 87%); border-radius: 10px;
+    height: 73px;    padding: 0px 7px 0px 2px;  }
+  .addOnButton p {    margin-left: 11px;  }
+  .addOnButton span {    margin-left: 12px;    font-size: 11px;  }
+  .prix {    padding-right: 0px;    font-size: 12px;
+      font-weight: normal;  }
+  .AddSize {    padding-top: 0px;    font-weight: bold;
+    font-size: 13px;  }
+  .containerResume {    width: 80%;
+    height: 15x0px;    background-color: hsl(229deg 28% 96%);
+    padding: 1px 20px 10px 20px;
+    border-radius: 10px;
+  }
+  .containerResume button {
+    border: none;    background-color: rgba(250, 235, 215, 0);
+    text-decoration: underline;    cursor: pointer;
+    padding-left: 0px;
+  }
+  .containerResume button:hover {    color: hsl(243, 100%, 62%);  }
+  .containerResume h4 {    margin-bottom: 0px;  }
+  .containerResume span {    display: block;
+    margin-top: -7px;    height: 1px;
+    background-color: hsl(231deg 18% 88%);
+  }
+  .containerResume {    width: 80%;    height: 15x0px;
+    background-color: hsl(229deg 28% 96%);
+    padding: 1px 30px 10px 20px;    border-radius: 10px;
+  }
+  .flexTotal {
+    display: flex;    justify-content: space-between;
+    align-items: center;
+    /* padding: 0px 0px 0px 0px; */
+    /* margin: 26px 27px 4px 0px; */
+    /* width: 80%; */
+    padding: -31px -1px 21px 17px;
+    /* border-radius: 10px;*/
+  }
+  .flexTotal span {    font-size: 20px; color: hsl(243, 100%, 62%);
+    margin-right: -4px;  }
+  .flexResume p {    font-size: 12px;  }
+  .flexResume label {    font-size: 14px;  }
+  #totalPrice {    margin-left: -210px;  }
+
+  
+}
